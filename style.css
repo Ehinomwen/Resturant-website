@@ -122,8 +122,6 @@ nav a:hover{
  
 }
 .menu{
-    /* display: flex; */
-    /* justify-content: space-evenly; */
     background-color: rgb(25, 24, 35) ;
     height: 500px;
     width: auto;
@@ -163,6 +161,7 @@ nav a:hover{
     background-color: rgb(255, 236, 229);
     font-size: 15px;
     color: black;
+    font-weight: 700;
 }
 .food_menu p{
     background-color: rgb(255, 236, 229);
