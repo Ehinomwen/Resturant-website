@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    background:  rgb(25, 24, 35);
+}
+.navbar{
+    /* background-color: rgb(25, 24, 35); */
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+
+}
+nav a{
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: #ffffff; 
+    font-weight: 300;
+    transition: all 0.5s ease ;
+    margin-right: 20px;
+    padding: 20px;
+
+
+
+  
+}
+nav a:hover{
+    color: tomato;
+} 
+.navbar p{
+    margin-right: 500px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    color:rgb(255, 101, 37);
+    font-size: 25px;
+} 
+.hero{
+    background-color: rgb(25, 24, 35) ;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: auto;
+}
+.hero button{
+   padding: 8px;
+   margin-top: 30px; 
+   border-radius: 5px;
+   background-color: rgb(255, 101, 37);
+   color: white;
+   border: none;
+   cursor: pointer;
+   transition: all 0.5s ease;
+}
+.hero button:hover{
+   color: wheat;
+}
+.hero img{
+    margin-top: 20px;
+    margin-right: 100px;
+    
+}
+.writeup{
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.writeup h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(255, 101, 37);
+}
+.writeup p{
+    color: #ffffff;
+}
+.about_us{
+    background-color: rgb(25, 24, 35) ;
+    height: 500px;
+    width: auto;   
+    display: flex;
+    justify-content: stretch;
+    
+}
+ .about_us img{
+    margin-left: 300px;
+    margin-top: 150px;
+}
+.about_us_writeup{
+    color: #ffffff;
+    margin-top: 200px;
+    margin-left: 70px;
+}  
+.about_us_writeup h3{
+    color: rgb(255, 101, 37);
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.about_us_writeup h5{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.about_us_writeup p{
+    margin-top: 20px;
+}
+.about_us_writeup button{
+    padding: 8px;
+    margin-top: 30px; 
+    border-radius: 5px;
+    background-color: rgb(255, 101, 37);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+ 
+}
+.menu{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    background-color: rgb(25, 24, 35) ;
+    height: 500px;
+    width: auto;
+    
+}
+
+.menu h3{
+    text-align: center;
+    color: rgb(255, 101, 37);
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.menu p{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.food_menu{
+    display: flex;
+    justify-content: center;
+  }  
+
+.food_menu img{
+   height: 150px;
+   width: 150px;
+   background-color: rgb(255, 236, 229);
+   margin-left: 40px;
+   margin-top: 10px;
+}
+.food_menu h3{
+    background-color: rgb(255, 236, 229);
+    font-size: 15px;
+    color: black;
+}
+.food_menu p{
+    background-color: rgb(255, 236, 229);
+    font-size: 12px;
+    color: black;
+}
+.food1{
+    background-color: rgb(255, 236, 229);
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.food2{
+    background-color: rgb(255, 236, 229);
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.food3{
+    background-color: rgb(255, 236, 229);
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+} 
+.Service{
+    height: 300px;
+    width: auto;
+}
+c
+.service_image{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.service_image img{
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+}
+.service_image p{
+    font-size: 10px;
+    margin-right: 100px;
+}
+.service_image h3{
+    margin-left: 100px;
+    font-size: 15px;
+    color: rgb(255, 101, 37);
+}
+
+last_section{
+    height: 500px;
+    width: auto;
+}
+.last{
+    background-color: rgb(255, 236, 229);
+    height: 200px;
+    width: 800px;
+    margin-left: 300px;
+    border-radius: 5px;
+    margin-top: 50px;
+    
+
+}
+.last button{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 120px;
+    padding: 7px;
+    background-color: rgb(255, 101, 37);
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    color: #ffffff;
+    
+}
+.last p{
+    color: black;
+    margin-top: 30px;
+    margin-left: 300px;
+    position: absolute;
+    background-color:rgb(255, 236, 229);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.last p span{
+    margin-left: 50px;
+    background-color:rgb(255, 236, 229);
+}
+footer{
+    background-color: rgb(25, 24, 35) ;
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social{
+    display: flex;
+    justify-items: baseline;
+    margin: 5px;
+}
+.social .face{
+    width: 25px;
+    height: 25px;
+    background-color: tomato;
+    border-radius: 50%;
+
+}
+
+.social .twit{
+    width: 25px;
+    height: 25px;
+    background-color: tomato;
+    border-radius: 50%;
+
+}
+
+.social .inst{
+    width: 25px;
+    height: 25px;
+    background-color: tomato;
+    border-radius: 50%;
+
+}
+
+.social .link{
+    width: 25px;
+    height: 25px;
+    background-color: tomato;
+    border-radius: 50%;
+
+}
