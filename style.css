@@ -339,7 +339,7 @@ footer ul a{
 } 
 
 .social-icon ul li a:hover{
-    color: rgb(97, 93, 93);
+    color: rgb(97, 93, 93);;
     transform: translate(0,-100%);
 }
 
@@ -352,6 +352,8 @@ footer ul a{
     height: 15px;
     width: 15px;
     font-size: 17px;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
     transition: .6s;
-}
+    align-items: center;
+ }
