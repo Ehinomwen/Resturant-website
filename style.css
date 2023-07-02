@@ -57,7 +57,7 @@ nav a:hover{
    transition: all 0.5s ease;
 }
 .hero button:hover{
-   color: wheat;
+   color: rgb(97, 93, 93);
 }
 .hero img{
     margin-top: 20px;
